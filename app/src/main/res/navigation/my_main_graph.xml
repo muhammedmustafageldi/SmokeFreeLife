@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_graph"
+    app:startDestination="@id/progressFragment">
+
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.gokcekocal.myapplication.fragments.ProgressFragment"
+        android:label="fragment_progress"
+        tools:layout="@layout/fragment_progress" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.gokcekocal.myapplication.fragments.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/achievementFragment"
+        android:name="com.gokcekocal.myapplication.fragments.AchievementFragment"
+        android:label="fragment_achievement"
+        tools:layout="@layout/fragment_achievement" />
+    <fragment
+        android:id="@+id/myHealthFragment"
+        android:name="com.gokcekocal.myapplication.fragments.MyHealthFragment"
+        android:label="fragment_my_healt"
+        tools:layout="@layout/fragment_my_healt" />
+    <fragment
+        android:id="@+id/reasonsFragment"
+        android:name="com.gokcekocal.myapplication.fragments.ReasonsFragment"
+        android:label="fragment_reasons"
+        tools:layout="@layout/fragment_reasons" />
+</navigation>

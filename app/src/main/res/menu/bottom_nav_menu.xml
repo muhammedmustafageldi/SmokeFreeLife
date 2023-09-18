@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/achievementFragment"
+        android:title="Başarılar"
+        android:icon="@drawable/ico_achievement"/>
+
+    <item
+        android:id="@+id/reasonsFragment"
+        android:title="Nedenler"
+        android:icon="@drawable/ico_question_marks"/>
+
+    <item
+        android:id="@+id/progressFragment"
+        android:title="İlerleme"
+        android:icon="@drawable/ico_progress"/>
+
+    <item
+        android:id="@+id/myHealthFragment"
+        android:title="Sağlığım"
+        android:icon="@drawable/ico_health"/>
+
+    <item
+        android:id="@+id/tipsFragment"
+        android:title="Tavsiyeler"
+        android:icon="@drawable/ico_tips"/>
+
+</menu>
