@@ -80,7 +80,7 @@
                     android:hint="Bir neden girin..."
                     android:inputType="text"
                     android:maxEms="160"
-                    android:maxLength="55"
+                    android:maxLength="160"
                     android:textColor="@color/primaryColor"
                     android:textColorHint="@color/primaryColor" />
             </com.google.android.material.textfield.TextInputLayout>
